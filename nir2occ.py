@@ -167,7 +167,7 @@ with rasterio.open(outFile, 'w', **aRaster.meta) as dst:
         dst.set_band_description(ID, aRaster.descriptions[ID - 1])
 
     # Add occupancy grid band
-    dst.write(aMap, aRaster.count)
+    dst.write(regionMaskRev, aRaster.count)
     dst.set_band_description(5, 'Occupancy')
 
 # Save plot
