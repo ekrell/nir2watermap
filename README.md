@@ -1,4 +1,4 @@
-# nir2map
+# nir2watermap
 
 The Near-Infrared (NIR) band in aerial imagery is very useful for automatic segmentation of water and non-water pixels. Much inshore water is characterized by green tints that may be very difficult to separate from vegetation with RGB imagery. 
 
